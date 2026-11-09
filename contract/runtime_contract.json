@@ -1,0 +1,97 @@
+{
+  "contract_version": "1.2.0",
+  "product_id": "JLZ-EDU-SK-085",
+  "product_name": "测评蓝图与试卷质量审查",
+  "product_type": "Skill",
+  "repository_name": "edu-assessment-blueprint-quality-review",
+  "repository_url": "https://github.com/jinlize-tech/edu-assessment-blueprint-quality-review",
+  "product_version": "1.0.0",
+  "batch": 2,
+  "business_category": "10 教学质量与学习证据中心",
+  "high_risk": false,
+  "deterministic": false,
+  "agent": false,
+  "core_outputs": [
+    "测评蓝图",
+    "题目属性表",
+    "覆盖缺口"
+  ],
+  "optional_outputs": [
+    "难度/时间风险",
+    "评分一致性问题",
+    "复核清单"
+  ],
+  "all_outputs": [
+    "测评蓝图",
+    "题目属性表",
+    "覆盖缺口",
+    "难度/时间风险",
+    "评分一致性问题",
+    "复核清单"
+  ],
+  "human_review_required": false,
+  "reviewer_role": "业务负责人",
+  "commercial_boundary": null,
+  "input_required": [
+    "contract_version",
+    "data_status",
+    "contains_sensitive_data",
+    "assessment_purpose",
+    "exam_paper",
+    "answer_key",
+    "learning_objectives",
+    "knowledge_points",
+    "duration",
+    "student_level"
+  ],
+  "input_properties": {
+    "contract_version": {
+      "type": "string"
+    },
+    "data_status": {
+      "type": "string",
+      "enum": [
+        "confirmed",
+        "partially_confirmed",
+        "unconfirmed"
+      ]
+    },
+    "contains_sensitive_data": {
+      "type": "boolean"
+    },
+    "requested_output_language": {
+      "type": "string",
+      "enum": [
+        "zh-CN",
+        "en"
+      ],
+      "default": "zh-CN"
+    },
+    "assessment_purpose": {
+      "type": "string"
+    },
+    "exam_paper": {
+      "type": "string"
+    },
+    "answer_key": {
+      "type": "string"
+    },
+    "learning_objectives": {
+      "type": "array"
+    },
+    "knowledge_points": {
+      "type": "array"
+    },
+    "duration": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "student_level": {
+      "type": "string"
+    }
+  },
+  "expected_scenario_count": 12,
+  "license": "Apache-2.0",
+  "runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
+  "workbuddy_validation": "NOT_EXECUTED"
+}

@@ -1,0 +1,31 @@
+{
+  "number": 85,
+  "product_id": "JLZ-EDU-SK-085",
+  "candidate_id": "CAND-013",
+  "chinese_name": "测评蓝图与试卷质量审查",
+  "english_name": "Assessment Blueprint Quality Review",
+  "repository_name": "edu-assessment-blueprint-quality-review",
+  "repository_url": "https://github.com/jinlize-tech/edu-assessment-blueprint-quality-review",
+  "product_type": "Skill",
+  "category": "10 教学质量与学习证据中心",
+  "batch": 2,
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "core_outputs": [
+    "测评蓝图",
+    "题目属性表",
+    "覆盖缺口"
+  ],
+  "optional_outputs": [
+    "难度/时间风险",
+    "评分一致性问题",
+    "复核清单"
+  ],
+  "high_risk": false,
+  "deterministic": false,
+  "scenario_count": 12,
+  "package_path": "dist/edu-assessment-blueprint-quality-review-v1.0.0.zip",
+  "runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
+  "workbuddy_validation": "NOT_EXECUTED",
+  "status": "LOCAL_DEVELOPMENT_COMPLETE_PENDING_REMOTE_VERIFICATION"
+}
