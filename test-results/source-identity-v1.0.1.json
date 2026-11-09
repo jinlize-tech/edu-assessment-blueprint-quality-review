@@ -1,0 +1,17 @@
+{
+  "product_id": "JLZ-EDU-SK-085",
+  "repository_name": "edu-assessment-blueprint-quality-review",
+  "version": "1.0.1",
+  "tested_source_commit": "8bb939e2d94d7b9f8f5d3e717ba261722e2e6639",
+  "tested_source_tree_sha": "f09b231338eac1a525e8a245e99a56a98d2c6dad",
+  "package_path": "dist/edu-assessment-blueprint-quality-review-v1.0.1.zip",
+  "package_sha256": "D19E3DC3BE583ACFA63C7C01A5A8BE03DAECEA0B201FDEA1DF51CCF7190DD129",
+  "runtime_test_status": "LOCAL_TEST_PASS",
+  "runtime_test_count": 50,
+  "schema_validation_status": "SCHEMA_INSTANCE_VALIDATION_PASS",
+  "schema_validation_case_count": 16,
+  "model_runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
+  "workbuddy_validation": "NOT_EXECUTED",
+  "readme_repair": "PASS",
+  "plugin_author_name": null
+}
