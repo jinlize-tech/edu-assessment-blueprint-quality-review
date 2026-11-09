@@ -2,10 +2,10 @@
   "product_id": "JLZ-EDU-SK-085",
   "repository_name": "edu-assessment-blueprint-quality-review",
   "product_type": "Skill",
-  "version": "1.0.0",
-  "package_path": "dist/edu-assessment-blueprint-quality-review-v1.0.0.zip",
-  "sha256": "7B33A03D6F9CE8449BC42ED68C7D93DFC6387BFA004F4F74F1107780DA1FC944",
-  "bytes": 40918,
+  "version": "1.0.1",
+  "package_path": "dist/edu-assessment-blueprint-quality-review-v1.0.1.zip",
+  "sha256": "D19E3DC3BE583ACFA63C7C01A5A8BE03DAECEA0B201FDEA1DF51CCF7190DD129",
+  "bytes": 41942,
   "entries": [
     "edu-assessment-blueprint-quality-review/README.md",
     "edu-assessment-blueprint-quality-review/PRODUCT_SPEC.md",
@@ -34,5 +34,9 @@
   "license": "Apache-2.0",
   "runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
   "workbuddy_validation": "NOT_EXECUTED",
-  "built_at": "2026-11-09T00:00:00+08:00"
+  "built_at": "2026-11-09T12:04:20.953173+00:00",
+  "previous_version": "1.0.0",
+  "previous_package_path": "dist/edu-assessment-blueprint-quality-review-v1.0.0.zip",
+  "previous_package_sha256": "7B33A03D6F9CE8449BC42ED68C7D93DFC6387BFA004F4F74F1107780DA1FC944",
+  "patch_reason": "README_USAGE_INSTALLATION_AND_PLATFORM_METADATA_FINALIZATION"
 }
